@@ -95,7 +95,7 @@ body {
   color: rgba(0, 0, 0, 0.8);
   box-shadow: 9984px 0 0 0 rgba(0, 0, 0, 0.8), 9999px 0 0 0 rgba(0, 0, 0, 0.8),
     10014px 0 0 0 rgba(0, 0, 0, 0.8);
-  animation: dotTyping 1.5s infinite linear;
+  animation: dotTyping 2s infinite linear;
 }
 @keyframes dotTyping {
   0% {
