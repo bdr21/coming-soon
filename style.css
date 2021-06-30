@@ -10,6 +10,10 @@
   font-family: SFT;
   src: url("SF-Pro-Display-Thin.otf") format("opentype");
 }
+:root {
+  /* --animate-duration: 800ms; */
+  --animate-delay: 5s;
+}
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  overflow: hidden;
 }
 #coming-soon {
   font-family: "SFT";
@@ -41,11 +46,13 @@ body {
 #coming-soon h1 {
   font-family: "Tajawal", sans-serif;
   font-weight: 100;
+  position: relative;
 }
 .focus-in-contract-bck {
   -webkit-animation: focus-in-contract-bck 1s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: focus-in-contract-bck 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: focus-in-contract-bck 2s 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
   margin-right: 4rem;
 }
 .focus-in-contract-bck:last-child {
